@@ -1,7 +1,7 @@
 #technology {
     display: flex;
     justify-content: center;
-    margin: 0 10px;
+    margin: 0 12px;
 }
 
 #technology .container {
@@ -59,4 +59,12 @@
 #technology .tech-wrapper .tech-name {
     font-size: 16px;
     margin: 0;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media all and (max-width: 1000px){
+    #technology .title {
+        font-size: 34px;
+    }   
 }

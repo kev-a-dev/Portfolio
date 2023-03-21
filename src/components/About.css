@@ -1,7 +1,7 @@
 #about {
     display: flex;
     justify-content: center;
-    margin: 140px 10px 0;
+    margin: 140px 12px 0;
     scroll-margin-top: 200px;
 }
 
@@ -104,4 +104,37 @@
     transform: scale(1.5);
 }
 
+/* ---------- MEDIA QUERIES ---------- */
 
+@media all and (max-width: 1000px){
+    #about {
+        margin-top: 100px;
+    }   
+
+    #about .container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    #about .img-wrapper {
+        width: 100%;
+        height: 200px;
+    }
+
+    #about .la {
+        transform: scale(2);
+    }
+
+    #about .title-info-wrapper {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #about .title {
+        font-size: 36px;
+    }
+
+    #about .info {
+        margin: 0 0 20px 0;
+    }
+}

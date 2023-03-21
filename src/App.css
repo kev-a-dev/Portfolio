@@ -12,9 +12,13 @@
   margin-top: 60px;
   margin-bottom: 40px;
   max-width: 1000px;
-  width: 5%;
+  width: 0;
   height: 1px;
   background-color: rgba(100, 148, 237, 0.5);
+}
+
+.divide.footer {
+  margin-top: 30px;
 }
 
 ::-webkit-scrollbar {
@@ -30,3 +34,20 @@
 ::-webkit-scrollbar-track {
   background-color: rgb(240, 245, 255); 
 }
+
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+ }
+
+@media all and (max-width: 1000px){
+    .divide {
+      margin: 30px;
+    }
+ }

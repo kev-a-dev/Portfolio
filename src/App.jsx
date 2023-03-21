@@ -3,7 +3,8 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Projects from './components/Projects';
 import Technology from './components/Technology';
-// import Test from './components/Test';
+import Contact from './components/Contact';
+
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       <Technology/>
       <div className="divide"></div>
       <Projects/>
-      <div className="divide"></div>
-      {/* <Test/> */}
+      <div className="divide footer"></div>
+      <Contact/>
     </div>
   );
 }
