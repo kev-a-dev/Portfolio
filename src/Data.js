@@ -50,7 +50,7 @@ const projectList = [
   {
     img: [mv1, mv2, mv3],
     title: "2022 Median Home Values",
-    info: "My first application that showcases a simple website for 2022 median home values. Simply hover over a state to display the price. You can filter numerically and alphabetically.",
+    info: "My first application showcasing a simple website for 2022 median home values. Hover over a state to display the price. You can filter numerically and alphabetically.",
     tools: "HTML, CSS, Javascript",
     link: "https://kev-a-dev.github.io/Median-Home-Values/",
     github: "https://github.com/kev-a-dev/Median-Home-Values",

@@ -17,8 +17,13 @@
   background-color: rgba(100, 148, 237, 0.5);
 }
 
-.divide.footer {
+.divide.contact {
   margin-top: 30px;
+}
+
+.divide.footer {
+  width: 100%;
+  margin: 30px auto 80px;
 }
 
 ::-webkit-scrollbar {
@@ -49,5 +54,9 @@
 @media all and (max-width: 1000px){
     .divide {
       margin: 30px;
+    }
+
+    .divide.footer {
+      margin: 20px;
     }
  }

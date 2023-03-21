@@ -44,15 +44,7 @@
 }
 
 #projects .project .img-wrapper {
-    padding: 10px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#projects .project .carousel .slide {
-    width: 100%;
-    box-shadow: 0 0 2px cornflowerblue;
-    border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 #projects .info-wrapper {
@@ -61,18 +53,18 @@
     justify-content: space-between;
     
     padding: 0 10px 10px 10px;
-    height: 150px;
+    height: 180px;
 }
 
 #projects .project-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin: 0;
     margin-bottom: 6px;
 }
 
 #projects .project-info {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 1.5;
     margin: 0;
@@ -140,13 +132,15 @@
 
 #projects .carousel-inner {
     box-shadow: 0 0 2px cornflowerblue;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     z-index: -1;
 }
 
 #projects .carousel-control-prev, 
 #projects .carousel-control-next {
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     z-index:0;
 }
 

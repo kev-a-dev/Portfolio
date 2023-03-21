@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Projects from './components/Projects';
 import Technology from './components/Technology';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,8 +16,10 @@ function App() {
       <Technology/>
       <div className="divide"></div>
       <Projects/>
-      <div className="divide footer"></div>
+      <div className="divide contact"></div>
       <Contact/>
+      <div className="divide footer"></div>
+      <Footer/>
     </div>
   );
 }
