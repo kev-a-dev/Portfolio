@@ -27,7 +27,7 @@ export default function About() {
               title="LinkedIn"
               className="linkedin"
             >
-              <i class="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
             </a>
             <a
               href="https://github.com/kev-a-dev"
@@ -36,7 +36,7 @@ export default function About() {
               title="GitHub"
               className="github"
             >
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
             <a
               href="https://docs.google.com/document/d/1iS4ApsKwhtT1au4kFzpIzokazKexeBnJkjQIOH7GCeI/edit?usp=sharing"
@@ -45,7 +45,7 @@ export default function About() {
               title="Resume"
               className="resume"
             >
-              <i class="fa-regular fa-file-pdf"></i>
+              <i className="fa-regular fa-file-pdf"></i>
             </a>
           </div>
         </div>

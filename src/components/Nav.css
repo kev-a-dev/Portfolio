@@ -78,7 +78,7 @@
     }
 }
 
-@media all and (max-width: 370px) {
+@media all and (max-width: 380px) {
     #nav {
         margin: 0 10px;
     }

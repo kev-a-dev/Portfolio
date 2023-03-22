@@ -4,6 +4,7 @@ import "./Contact.css";
 import message from "../assets/message.png";
 
 export default function Contact() {
+  
   return (
     <section id="contact">
       <div className="container">
@@ -12,10 +13,10 @@ export default function Contact() {
         </h1>
 
         <div className="input-contact-info-container">
-          {/* <div className="input-wrapper"> */}
+          
           <form
             className="input-wrapper"
-            action="https://formsubmit.co/97485503d5ee3537f112f171f471c1d8"
+            action="https://formspree.io/f/mgeblyly"
             method="POST"
           >
             <input
@@ -40,7 +41,6 @@ export default function Contact() {
             />
             <button className="send">Send</button>
           </form>
-          {/* </div> */}
 
           <img src={message} alt="" className="mail-img" />
         </div>

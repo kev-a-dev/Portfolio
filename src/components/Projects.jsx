@@ -19,14 +19,14 @@ export default function Projects() {
                   <div className="project" key={index}>
 
                   <div className="img-wrapper">
-                    <div id={`carouselExampleIndicators${index}`} class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <div id={`carouselExampleIndicators${index}`} className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                      <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                       </div>
 
-                      <div class="carousel-inner">
+                      <div className="carousel-inner">
                       {
                         project.img.map((img, idx) => (
                           <div key={idx} className={`carousel-item ${idx === 0 ? 'active' : ''}`}>
@@ -36,13 +36,13 @@ export default function Projects() {
                       }
                       </div>
 
-                      <button class="carousel-control-prev" type="button" data-bs-target={`#carouselExampleIndicators${index}`} data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                      <button className="carousel-control-prev" type="button" data-bs-target={`#carouselExampleIndicators${index}`} data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
                       </button>
-                      <button class="carousel-control-next" type="button" data-bs-target={`#carouselExampleIndicators${index}`} data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                      <button className="carousel-control-next" type="button" data-bs-target={`#carouselExampleIndicators${index}`} data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
                       </button>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ export default function Projects() {
                       
                       <div className="link-container">
                         <a href={project.link} target="_blank" rel="noreferrer" title='Live Link' className='project-link'><h4>Try it!</h4></a>
-                        <a href={project.github} target="_blank" rel="noreferrer" title="GitHub Code" className='project-github'><i class="fa-brands fa-github"></i></a>
+                        <a href={project.github} target="_blank" rel="noreferrer" title="GitHub Code" className='project-github'><i className="fa-brands fa-github"></i></a>
                       </div>
                     </div>
 

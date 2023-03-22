@@ -12,35 +12,97 @@
 
     max-width: 1000px;
     width: 100%;
-    /* height: 80px; */
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: cornflowerblue;
+    height: 120px;
+    border-top: 1px solid cornflowerblue;
 }
 
 #footer .contact-info-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* padding: 20px; */
 }
+
+
+/* ---------- EMAIL ---------- */
 
 #footer .contact-info-wrapper {
     display: flex;
-    gap: 20px;
+    position: relative;
+    justify-content: center;
 }
 
-#footer h3{
+#footer .text-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: cornflowerblue;
     color: white;
-    font-size: 20px;
+    
+    border-radius: 6px;
+    padding: 2px 4px;
+    
+    white-space: nowrap;
+    opacity: 0;
+    transition: 300ms;
 }
 
-#footer .link-container a{
-    margin: 20px;
+#footer .text-title.show {
+    opacity: 1;
+    top: -8px;
+}
+
+#footer h3 {
+    font-size: 20px;
+    color: cornflowerblue;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#footer h3:hover {
+    transform: scale(1.05);
+    transition: 200ms;
+}
+
+#footer h3:active {
+    transform: scale(1);
+    transition: 50ms;
+}
+
+/* ---------- LINK ---------- */
+#footer .link-container a {
+    margin: 10px 0 0 30px;
 }
 
 #footer i {
-    color: white;
     font-size: 24px;
+    color: cornflowerblue;
+    transition: 300ms;
+}
+
+#footer i:hover {
+    transform: scale(1.2);
+    transition: 300ms;
+}
+
+#footer i:active {
+    transform: scale(1);
+    transition: 50ms;
+}
+/* ---------- MEDIA QUERIES ---------- */
+
+@media all and (max-width: 380px) {
+    #footer h3 {
+        font-size: 16px;
+    }
+
+    #footer .link-container a{
+        margin: 10px 0 0 10px;
+    }
+
+    #footer .container {
+        height: 80px;
+    }
 }

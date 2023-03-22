@@ -108,6 +108,7 @@
     background-color: cornflowerblue;
     color: white;
     transition: 300ms;
+    white-space: nowrap;
 }
 
 #projects .project-link h4:hover{
