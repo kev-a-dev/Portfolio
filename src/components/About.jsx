@@ -15,7 +15,7 @@ export default function About() {
 
           <h1 className="info">
             As a <span>Software Engineer</span> I enjoy developing web
-            applications that provide great user experiences. Currently I
+            applications with great user experiences. Currently I
             am located in <span>Los Angeles</span>.
           </h1>
 
