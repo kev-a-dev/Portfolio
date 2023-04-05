@@ -16,9 +16,9 @@ import landingPage1 from "../src/assets/projects/landingPage/landingPage1.png";
 import landingPage2 from "../src/assets/projects/landingPage/landingPage2.png";
 import landingPage3 from "../src/assets/projects/landingPage/landingPage3.png";
 
-import mv1 from "../src/assets/projects/medianValue/mv1.png";
-import mv2 from "../src/assets/projects/medianValue/mv2.png";
-import mv3 from "../src/assets/projects/medianValue/mv3.png";
+import mootube1 from '../src/assets/projects/mooTube/mootube1.png'
+import mootube2 from '../src/assets/projects/mooTube/mootube2.png'
+import mootube3 from '../src/assets/projects/mooTube/mootube3.png'
 
 const techList = [
   { name: "HTML", img: html },
@@ -40,20 +40,20 @@ const projectList = [
     github: "https://github.com/kev-a-dev/Food-App",
   },
   {
+    img: [mootube1, mootube2, mootube3],
+    title: "MooTube",
+    info: "I built a simpler YouTube to practice fetching APIs. You can search videos, see suggested videos, read comments, and of course view videos. It is also cow themed.",
+    tools: "HTML, CSS, Javascript, React",
+    link: "https://kev-a-dev.github.io/MooTube/",
+    github: "https://github.com/kev-a-dev/MooTube",
+  },
+  {
     img: [landingPage1, landingPage2, landingPage3],
     title: "Client Landing Page",
     info: "Prototype landing page I built to practice UI design and flexbox. ",
     tools: "HTML, CSS, Javascript",
     link: "https://kev-a-dev.github.io/Business-Page/",
     github: "https://github.com/kev-a-dev/Business-Page",
-  },
-  {
-    img: [mv1, mv2, mv3],
-    title: "2022 Median Home Values",
-    info: "My first application showcasing a simple website for 2022 median home values. Hover over a state to display the price. You can filter numerically and alphabetically.",
-    tools: "HTML, CSS, Javascript",
-    link: "https://kev-a-dev.github.io/Median-Home-Values/",
-    github: "https://github.com/kev-a-dev/Median-Home-Values",
   },
 ];
 
