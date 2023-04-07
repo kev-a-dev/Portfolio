@@ -33,8 +33,8 @@ const techList = [
 const projectList = [
   {
     img: [foodApp1, foodApp2, foodApp3],
-    title: "Food Ordering System",
-    info: "My first React project showcasing a restaurant inspired ordering system. Includes item customizations, filter bar, and Stripe checkout system.",
+    title: "Kiosh Checkout",
+    info: "Built with React and Stripe integration, this project showcases a beautiful kiosk checkout system that supports item customization and can be implemented with any restaurant.",
     tools: "HTML, CSS, Javascript, React",
     link: "https://kev-a-dev.github.io/Food-App/",
     github: "https://github.com/kev-a-dev/Food-App",
@@ -42,7 +42,7 @@ const projectList = [
   {
     img: [mootube1, mootube2, mootube3],
     title: "MooTube",
-    info: "I built a simpler YouTube to practice fetching APIs. You can search videos, see suggested videos, read comments, and of course view videos. It is also cow themed.",
+    info: "Integrated Google's YouTube API to build a responsive cow themed YouTube application with search results, video suggestions, video playback, and comment viewing.",
     tools: "HTML, CSS, Javascript, React",
     link: "https://kev-a-dev.github.io/MooTube/",
     github: "https://github.com/kev-a-dev/MooTube",
