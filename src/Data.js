@@ -34,7 +34,7 @@ const projectList = [
   {
     img: [foodApp1, foodApp2, foodApp3],
     title: "Kiosh Checkout",
-    info: "Built with React and Stripe integration, this project showcases a beautiful kiosk checkout system that supports item customization and can be implemented with any restaurant.",
+    info: "Built with React and Stripe integration, this project showcases a beautiful kiosk checkout system that supports item customization.",
     tools: "HTML, CSS, Javascript, React",
     link: "https://kev-a-dev.github.io/Food-App/",
     github: "https://github.com/kev-a-dev/Food-App",
