@@ -20,6 +20,10 @@ import mootube1 from '../src/assets/projects/mooTube/mootube1.png'
 import mootube2 from '../src/assets/projects/mooTube/mootube2.png'
 import mootube3 from '../src/assets/projects/mooTube/mootube3.png'
 
+import nft1 from '../src/assets/projects/nft/nft1.png'
+import nft2 from '../src/assets/projects/nft/nft2.png'
+import nft3 from '../src/assets/projects/nft/nft3.png'
+
 const techList = [
   { name: "HTML", img: html },
   { name: "CSS", img: css },
@@ -33,7 +37,7 @@ const techList = [
 const projectList = [
   {
     img: [foodApp1, foodApp2, foodApp3],
-    title: "Kiosh Checkout",
+    title: "Kiosk Checkout",
     info: "Built with React and Stripe integration, this project showcases a beautiful kiosk checkout system that supports item customization.",
     tools: "HTML, CSS, Javascript, React",
     link: "https://kev-a-dev.github.io/Food-App/",
@@ -46,6 +50,14 @@ const projectList = [
     tools: "HTML, CSS, Javascript, React",
     link: "https://kev-a-dev.github.io/MooTube/",
     github: "https://github.com/kev-a-dev/MooTube",
+  },
+  {
+    img: [nft1, nft2, nft3],
+    title: "NFT World",
+    info: "NFT site with dynamic API data, skeleton loading states, carousels, filtering, and animations.",
+    tools: "HTML, CSS, Javascript, React",
+    link: "https://kev-a-dev.github.io/kevin-internship/",
+    github: "https://github.com/kev-a-dev/kevin-internship",
   },
   {
     img: [landingPage1, landingPage2, landingPage3],

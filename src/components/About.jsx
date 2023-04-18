@@ -39,7 +39,7 @@ export default function About() {
               <i className="fa-brands fa-github"></i>
             </a>
             <a
-              href="https://docs.google.com/document/d/1iS4ApsKwhtT1au4kFzpIzokazKexeBnJkjQIOH7GCeI/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1hAD40ZusmobQlxcQbFsc9lrMJzHhA7f_Bs64Z4tuE0g/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
               title="Resume"
