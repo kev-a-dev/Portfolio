@@ -14,8 +14,7 @@ export default function About() {
           </h1>
 
           <h1 className="info">
-            As a <span>Frontend Developer</span> I enjoy developing web
-            applications that provide great user experiences. Currently I
+            I'm a <span>Berkeley Grad, Project Manager, and Frontend Engineer</span> with 3 years of project management experience supporting technical projects. Currently I
             am located in <span>Los Angeles</span>.
           </h1>
 
