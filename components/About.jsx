@@ -14,8 +14,8 @@ export default function About() {
           </h1>
 
           <h1 className="info">
-            I'm a <span>Berkeley Grad, Project Manager,</span> and <span>Frontend Engineer</span> with 3 years of project management experience supporting technical projects. Currently I
-            am located in <span>Los Angeles</span>.
+            I'm a <span>Berkeley Grad, Business Analyst,</span> and <span>Frontend Engineer</span> with 4 years of experience supporting technical initiatives. Currently I
+            am located in <span>Chicago</span>.
           </h1>
 
           <div className="link-container">
